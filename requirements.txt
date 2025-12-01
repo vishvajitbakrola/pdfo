@@ -1,0 +1,10 @@
+Flask==3.0.0
+gunicorn==21.2.0
+# Critical: Use older Numpy to prevent binary incompatibilities
+numpy<2.0.0
+# Critical: Use stable versions of PDF tools
+pypdf==3.17.1
+pdf2docx==0.5.6
+# Critical: Headless OpenCV for server environments
+opencv-python-headless==4.8.0.74
+werkzeug==3.0.1
